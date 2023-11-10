@@ -1,0 +1,99 @@
+.checkout-flexbox {
+  background: #a19287;
+  border-radius: 45px;
+  width: 1693px;
+  height: auto;
+  position: absolute;
+  left: 102px;
+  top: 1058px;
+  display: flex;
+  margin: 10px auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.confirm-checkout-btn {
+  background: #362706;
+  border-radius: 45px;
+  width: 477px;
+  height: 115px;
+  float: right;
+  margin: 10px auto;
+}
+
+.confirm-checkout-btn:hover {
+  transform: scale(1.01);
+}
+
+.confirm-text {
+  color: #ffffff;
+  text-align: center;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+  position: relative;
+}
+.checkout-header {
+  color: #d9d3bd;
+  text-align: center;
+  font: 400 158px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 302px;
+  top: 884px;
+  width: 1293px;
+}
+.checkout-item-box {
+  background: #d9d3bd;
+  border-radius: 45px;
+  width: 1500px;
+  height: 438px;
+  position: relative;
+  justify-content: center;
+  margin: 0 auto;
+  margin: 20px;
+}
+.checkout-img {
+  background: #7b685b;
+  border-radius: 45px;
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  margin: 15px auto;
+  margin-left: 30px;
+}
+.checkout-name {
+  color: #362706;
+  text-align: left;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  margin-left: 370px;
+  margin-top: 20px;
+}
+.checkout-price {
+  color: #362706;
+  text-align: left;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  margin-left: 370px;
+  margin-top: 50px;
+}
+.checkout-total {
+  color: #362706;
+  text-align: left;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  margin-left: 370px;
+  margin-top: 330px;
+}
+.checkout-tprice {
+  text-align: right;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+  position: relative;
+  float: right;
+}
+.checkout-tprice-span {
+  color: #ffffff;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+}
+.checkout-tprice-span2 {
+  color: #362706;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+}

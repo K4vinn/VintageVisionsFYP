@@ -1,0 +1,54 @@
+.edit-info-box {
+  background: #a19287;
+  border-radius: 45px;
+  width: 1693px;
+  height: 1188px;
+  position: absolute;
+  left: 102px;
+  top: 1058px;
+}
+
+.edit-information-header {
+  color: #d9d3bd;
+  text-align: center;
+  font: 400 158px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 302px;
+  top: 884px;
+  width: 1293px;
+}
+
+.edit-form {
+  font: 30px "Silk Flower Demo", sans-serif;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.edit-form input {
+  background: #d9d3bd;
+  border-radius: 45px;
+  width: 804px;
+  height: 100px;
+  position: relative;
+  border: none;
+  margin: 20px;
+  font: 20px "Silk Flower Demo", sans-serif;
+  padding: 10px;
+  word-break: normal;
+  word-wrap: break-word;
+}
+
+.sa-input input {
+  width: 804px;
+  height: 150px;
+  word-wrap: break-word;
+}
+
+.edit-form label {
+  text-align: right;
+  margin: 20px auto;
+  left: 20px;
+}

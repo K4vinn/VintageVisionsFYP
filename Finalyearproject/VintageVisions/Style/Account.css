@@ -1,0 +1,247 @@
+.accheader {
+  color: #d9d3bd;
+  text-align: center;
+  font: 400 158px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 50%; /* Center horizontally */
+  top: 800px;
+  transform: translateX(-50%); /* Center horizontally */
+  width: 787px;
+  text-decoration: underline;
+}
+
+.acc-box {
+  background: #a19287;
+  border-radius: 45px;
+  width: 1693px;
+  height: 800px;
+  position: absolute;
+  left: 50%; /* Center horizontally */
+  top: 1058px;
+  transform: translateX(-50%); /* Center horizontally */
+}
+
+.acc-info-box {
+  background: #d9d3bd;
+  border-radius: 15px;
+  width: 1500px;
+  height: 400px;
+  margin: 10px auto;
+  list-style-type: none;
+  /* justify-content: center; Remove this */
+}
+
+.acc-info-box li {
+  font: 400 30px "Silk Flower Demo", sans-serif;
+  margin: 10px auto;
+}
+
+.purchase-box {
+  background: #a19287;
+  border-radius: 45px;
+  width: 1693px;
+  height: 798px;
+  position: absolute;
+  top: 1900px;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+}
+
+.history-card {
+  position: relative;
+  background: #d9d3bd;
+  border-radius: 45px;
+  width: 540px;
+  height: 639px;
+  margin: 20px;
+  float: left;
+}
+
+.history-text {
+  color: #ffffff;
+  text-align: center;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+  position: relative;
+  margin: 0 auto;
+  /* justify-content: center; Remove this */
+}
+
+.favourites {
+  color: #ffffff;
+  text-align: center;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+  position: relative;
+  margin: 0 auto;
+  height: 10px;
+  /* justify-content: center; Remove this */
+}
+
+.change-button {
+  background: #d9d3bd;
+  border-radius: 45px;
+  width: 477px;
+  height: 115px;
+  position: absolute;
+  right: 90px; /* Adjust right position */
+  top: 500px;
+  border: none;
+}
+
+.change-button:hover {
+  transform: scale(1.01);
+}
+
+.change-pw {
+  color: #362706;
+  text-align: center;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+  position: relative;
+  margin: 30px auto;
+  /* justify-content: center; Remove this */
+  /* align-items: center; Remove this */
+}
+
+.delete-acc {
+  background: #f23535;
+  border-radius: 45px;
+  width: 477px;
+  height: 115px;
+  position: absolute;
+  right: 100px; /* Adjust right position */
+  margin-top: -20px;
+  color: #ffffff;
+  text-align: center;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+  margin: 30px auto;
+}
+
+.change-pw2 {
+  color: #ffffff;
+  text-align: center;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+  position: relative;
+  margin: 30px auto;
+  /* justify-content: center; Remove this */
+  /* align-items: center; Remove this */
+}
+
+.edit-button {
+  background: #d9d3bd;
+  border: none;
+  border-radius: 45px;
+  width: 477px;
+  height: 115px;
+  position: absolute;
+  right: 600px; /* Adjust right position */
+  top: 500px;
+}
+
+.edit-button:hover {
+  transform: scale(1.01);
+}
+
+.edit-info {
+  color: #362706;
+  text-align: center;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+  position: relative;
+  margin: 30px auto;
+}
+
+.personal-header {
+  color: #ffffff;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+  position: relative;
+  margin: 10px auto;
+  text-align: center;
+}
+
+#confirmationModal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#confirmationModal div {
+  background-color: #fff;
+  width: 300px;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+#confirmationModal p {
+  margin: 0;
+}
+
+#confirmationModal button {
+  background-color: #ff0000; /* Red color for the "Cancel" button */
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#confirmationModal button.confirm {
+  background-color: #008000; /* Green color for the "Confirm Delete" button */
+}
+
+.wishlist-image {
+  height: 400px;
+  width: 400px;
+  border-radius: 16px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.wishlist-image img {
+  height: 400px;
+  width: 400px;
+  border-radius: 16px;
+}
+
+.wishlist-item-name h1 {
+  color: #362706;
+  font: 30px "Silk Flower Demo", sans-serif;
+  text-align: center;
+}
+
+.wishlist-viewmore {
+  color: #362706;
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 15px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.wishlist-box {
+  background: #a19287;
+  border-radius: 45px;
+  width: 1693px;
+  height: 798px;
+  position: absolute;
+  top: 2750px;
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center horizontally */
+}
+
+.wishlist-card {
+  position: relative;
+  background: #d9d3bd;
+  border-radius: 45px;
+  width: 500px;
+  height: 550px;
+  float: left;
+  margin: 30px;
+  top: 15px;
+}

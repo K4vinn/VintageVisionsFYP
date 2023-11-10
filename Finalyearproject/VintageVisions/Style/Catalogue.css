@@ -1,0 +1,131 @@
+.second,
+.second * {
+  box-sizing: border-box;
+}
+.second {
+  background: #e9e5d6;
+  width: 1898px;
+  height: 3906px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-design {
+  background: #e9e5d6;
+  border-radius: 45px;
+  width: 1693px;
+  height: auto;
+  position: absolute;
+  left: 110px;
+  top: 1032px;
+}
+
+.product-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.product-link:hover {
+  transform: scale(1.01);
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 500px); /* 3 columns */
+  gap: 20px; /* Spacing between items */
+  margin: 180px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.catalogue-header {
+  color: #d9d3bd;
+  text-align: right;
+  font: 400 158px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 555px;
+  top: 859px;
+  width: 787px;
+}
+
+.filter {
+  color: #362706;
+  text-align: right;
+  font: 400 36px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  margin: 30px 30px 30px 30px;
+}
+
+.filter h1 {
+  color: #362706;
+  text-align: right;
+  font: 400 36px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  margin: 30px 30px 30px 30px;
+}
+
+.prod-category {
+  border-radius: 16px;
+  border: none;
+  background-color: #7b685b;
+  margin: 0 auto;
+  left: 150px;
+  top: 20px;
+  height: 50px;
+  width: 500px;
+  position: relative;
+  padding: 0 1rem;
+  color: #d9d3bd;
+  font: 20px "Silk Flower Demo", sans-serif;
+
+  /* Remove highlight effect when clicked */
+  appearance: none;
+  -webkit-appearance: none; /* For older versions of webkit browsers */
+}
+
+.product-card {
+  position: relative;
+  background: #7b685b;
+  border-radius: 10px;
+  width: 500px;
+  height: 550px;
+  margin-left: 20px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.product-image {
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+  position: relative;
+}
+
+.product-box {
+  display: flex;
+  background: #7b685b;
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin: 15px auto;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.product-name {
+  color: #d9d3bd;
+  text-align: center;
+  font: 400 36px "Silk Flower Demo", sans-serif;
+  position: relative;
+  margin: 10px;
+}
+
+.product-price {
+  color: #d9d9d9;
+  text-align: center;
+  font: 400 36px "Silk Flower Demo", sans-serif;
+  position: relative;
+}

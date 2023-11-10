@@ -1,0 +1,219 @@
+footer {
+  position: static;
+}
+
+.rectangle-18 {
+  background: #7b685b;
+  width: 1903px;
+  height: 429px;
+  position: absolute;
+  left: 0px;
+  top: 4302px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.rectangle-35 {
+  background: #e9e5d6;
+  width: 249px;
+  height: 50px;
+  position: absolute;
+  left: 824px;
+  top: 4651px;
+  border-radius: 7px;
+}
+.back-to-top {
+  color: #362706;
+  text-align: left;
+  font: 400 30px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 865px;
+  top: 4660px;
+  width: 195px;
+  height: 33px;
+}
+
+.vintage-visions {
+  color: #e9e5d6;
+  text-align: left;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: 64px;
+  top: 4341px;
+}
+.people {
+  color: #e9e5d6;
+  text-align: left;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: 574px;
+  top: 4341px;
+}
+.contact-us {
+  color: #e9e5d6;
+  text-align: left;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: 1105px;
+  top: 4349px;
+}
+.newsletter {
+  color: #e9e5d6;
+  text-align: left;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: 1502px;
+  top: 4349px;
+}
+.immerse-in-the-world-of-retro-modernism-furniture-and-bring-back-the-style-once-inspired-by-our-older-day-folks {
+  color: #e9e5d6;
+  text-align: center;
+  font: 400 32px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 64px;
+  top: 4413px;
+  width: 359px;
+}
+.my-profile {
+  color: #000000;
+  text-align: center;
+  font: 400 32px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 572px;
+  top: 4402px;
+  width: 157px;
+  height: 45px;
+}
+.checkout {
+  color: #000000;
+  text-align: center;
+  font: 400 32px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 578px;
+  top: 4450px;
+  width: 146px;
+  height: 45px;
+}
+.help {
+  color: #000000;
+  text-align: center;
+  font: 400 32px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 615px;
+  top: 4498px;
+  width: 71px;
+  height: 45px;
+}
+.support {
+  color: #000000;
+  text-align: center;
+  font: 400 32px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 587px;
+  top: 4546px;
+  width: 128px;
+  height: 45px;
+}
+.faq {
+  color: #000000;
+  text-align: center;
+  font: 400 32px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 619px;
+  top: 4594px;
+  width: 62px;
+  height: 45px;
+}
+.location {
+  color: #e9e5d6;
+  text-align: center;
+  font: 400 32px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 1149px;
+  top: 4410px;
+  width: 157px;
+  height: 45px;
+}
+.join-our-newsletter {
+  color: #e9e5d6;
+  text-align: center;
+  font: 400 32px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 1522px;
+  top: 4410px;
+  width: 206px;
+  height: 45px;
+}
+.number {
+  color: #e9e5d6;
+  text-align: center;
+  font: 400 32px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 1155px;
+  top: 4458px;
+  width: 146px;
+  height: 45px;
+}
+.email {
+  color: #e9e5d6;
+  text-align: center;
+  font: 400 32px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 1177px;
+  top: 4506px;
+  width: 101px;
+  height: 45px;
+}
+.my-profile2 {
+  color: #e9e5d6;
+  text-align: center;
+  font: 400 32px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 572px;
+  top: 4402px;
+  width: 157px;
+  height: 45px;
+}
+.checkout2 {
+  color: #e9e5d6;
+  text-align: center;
+  font: 400 32px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 578px;
+  top: 4450px;
+  width: 146px;
+  height: 45px;
+}
+.help2 {
+  color: #e9e5d6;
+  text-align: center;
+  font: 400 32px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 615px;
+  top: 4498px;
+  width: 71px;
+  height: 45px;
+}
+.support2 {
+  color: #e9e5d6;
+  text-align: center;
+  font: 400 32px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 587px;
+  top: 4546px;
+  width: 128px;
+  height: 45px;
+}
+.faq2 {
+  color: #e9e5d6;
+  text-align: center;
+  font: 400 32px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 619px;
+  top: 4594px;
+  width: 62px;
+  height: 45px;
+}

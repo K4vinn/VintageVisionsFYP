@@ -1,0 +1,465 @@
+.welcome {
+  font: 200 25px "Silk Flower Demo", sans-serif;
+  color: #362706;
+  position: relative;
+  margin: 20px auto;
+  left: 20px;
+}
+
+.alert-box-wishlist {
+  height: 70px;
+  width: 50%;
+  border: none;
+  border-radius: 15px;
+  background-color: #a2c579;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  top: 1010px;
+  left: 26%;
+  position: absolute;
+  border: solid white;
+}
+.alert-box-cart {
+  height: 70px;
+  width: 50%;
+  border: none;
+  border-radius: 15px;
+  background-color: #a2c579;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  top: 1010px;
+  left: 26%;
+  position: absolute;
+  border: solid white;
+}
+
+.confirmation-text {
+  font: 200 25px "Silk Flower Demo", sans-serif;
+  color: rgb(243, 243, 243);
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.prod-box {
+  background: #a19287;
+  border-radius: 45px;
+  width: 1693px;
+  height: 1971px;
+  position: relative;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 10px;
+  bottom: 2500px;
+}
+
+.login-status {
+  color: #d9d3bd;
+  text-align: right;
+  font: 400 30px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 555px;
+  top: 959px;
+  width: 787px;
+}
+
+.info-header {
+  color: #d9d3bd;
+  text-align: right;
+  font: 400 158px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 555px;
+  top: 859px;
+  width: 787px;
+}
+
+.prod-info {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.prod-info li {
+  color: #d9d3bd;
+  /* text-align: center; */
+  font: 400 38px "Silk Flower Demo", sans-serif;
+  right: 15%;
+  margin: 50px;
+  position: relative;
+  margin-top: 100px;
+}
+
+.prod-info li:first-child {
+  margin-top: 10px;
+  margin-bottom: -50px;
+  color: #362706;
+}
+
+.prod-info li:nth-child(2) {
+  margin-bottom: -90px;
+  color: #362706;
+}
+
+.prod-info li:nth-child(3) {
+  margin-bottom: -90px;
+  color: #362706;
+}
+
+.prod-info li:nth-child(4) {
+  color: #362706;
+}
+
+.circle {
+  border: none;
+  background: #d9d3bd;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  right: 30px;
+  top: 30px;
+  float: right;
+}
+
+.wishlist-icon {
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  left: 15px;
+  bottom: 13px;
+}
+
+.circle:hover {
+  transform: scale(1.01);
+  .wishlist-icon {
+    position: absolute;
+    font-size: 30px;
+    color: #a7727d;
+    left: 15px;
+    bottom: 13px;
+  }
+}
+
+.more-item1 {
+  background: #7b685b;
+  border-radius: 45px;
+  width: 540px;
+  height: 639px;
+  position: absolute;
+}
+
+.more-item2 {
+  background: #7b685b;
+  border-radius: 45px;
+  width: 540px;
+  height: 639px;
+  position: absolute;
+}
+
+.more-item3 {
+  background: #7b685b;
+  border-radius: 45px;
+  width: 540px;
+  height: 639px;
+  position: absolute;
+}
+
+.productimage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  border-radius: 16px;
+}
+
+.personal-header4 {
+  color: #362706;
+  text-align: left;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+  position: absolute;
+}
+
+.prod-image {
+  background: #d9d3bd;
+  border-radius: 45px;
+  width: 500px;
+  height: 600px;
+  position: relative;
+  margin: 30px;
+  margin-left: 5%;
+}
+
+.img-container {
+  width: 950px;
+  position: relative;
+}
+
+.desc-container {
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.preview-1 {
+  background: #d9d3bd;
+  border-radius: 45px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 60%;
+}
+
+.preview-2 {
+  background: #d9d3bd;
+  border-radius: 45px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  position: absolute;
+  top: 120px;
+  left: 60%;
+}
+
+.preview-3 {
+  background: #d9d3bd;
+  border-radius: 45px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  position: absolute;
+  top: 240px;
+  left: 60%;
+}
+
+.preview-4 {
+  background: #d9d3bd;
+  border-radius: 45px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  position: absolute;
+  top: 360px;
+  left: 60%;
+}
+
+.variation {
+  background: #d9d3bd;
+  border-radius: 45px;
+  width: 498px;
+  height: 106px;
+  position: absolute;
+}
+
+.add-to-cart {
+  background: #d9d3bd;
+  border-radius: 15px;
+  width: 300px;
+  height: 82px;
+  position: relative;
+  top: 450px;
+  left: 140px;
+  float: right;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border: none; /* Remove the border */
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-to-cart:hover {
+  transform: scale(1.01);
+}
+
+.add-cart-btn {
+  color: #362706;
+  font: 400 30px "Silk Flower Demo", sans-serif;
+  pointer-events: none; /* Disable pointer events on the inner text */
+}
+
+/* Desc Box */
+.desc {
+  background: #7b685b;
+  border-radius: 45px;
+  width: 1526px;
+  height: 613px;
+  display: flex;
+  margin-left: 5%;
+  flex-direction: column;
+}
+
+.desc-header {
+  color: #d9d3bd;
+  text-align: left;
+  width: 400px;
+  font: 400 35px "Silk Flower Demo", sans-serif;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  height: 40px;
+  margin-bottom: -20px;
+}
+
+.desc-details {
+  color: #d9d3bd;
+  text-align: left;
+  font: 400 25px "Silk Flower Demo", sans-serif;
+  position: relative;
+  float: left;
+  margin: 30px;
+  display: flex;
+}
+
+.prod-desc li {
+  color: #d9d3bd;
+  text-align: left;
+  font: 400 25px "Silk Flower Demo", sans-serif;
+  list-style-type: none;
+}
+
+/* Modal container */
+.modal {
+  display: block; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+}
+
+.modalwishlist {
+  display: block; /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+}
+
+/* Modal content */
+.modal-content {
+  background-color: #a19287;
+  margin: 15% auto;
+  padding: 20px;
+  border: none;
+  border-radius: 15px;
+  width: 70%;
+  height: 300px;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.vertical-line {
+  border-left: 2px solid #000;
+  height: 80%; /* Vertical line extends to the full height of the modal-content */
+  position: absolute;
+  left: 50%; /* Position in the middle */
+  top: 10%;
+  transform: translateX(-50%); /* Center the line horizontally */
+}
+
+.guest-checkout,
+.member-checkout {
+  /* Font */
+  font: 200 18px "Silk Flower Demo", sans-serif;
+  color: #362706;
+  /* Display */
+  width: 50%; /* Each section takes half of the modal-content */
+  padding: 20px; /* Add padding for spacing */
+  box-sizing: border-box; /* Include padding in the width calculation */
+  position: absolute;
+  top: 10%;
+  height: 100%; /* Each section takes the full height of the modal-content */
+}
+
+.guest-checkout {
+  left: 0; /* Left section */
+  text-align: center;
+}
+
+.member-checkout {
+  right: 0; /* Right section */
+  text-align: center; /* Right-align the content in this section */
+}
+
+.guest-btn {
+  background: #d9d3bd;
+  border-radius: 15px;
+  border: none;
+  height: 80px;
+  width: 300px;
+  box-shadow: 0px 4px 4px 0px rgba (0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.member-btn {
+  background: #d9d3bd;
+  border-radius: 15px;
+  border: none;
+  height: 80px;
+  width: 300px;
+  box-shadow: 0px 4px 4px 0px rgba (0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.member-btn,
+.guest-btn div {
+  font: 200 18px "Silk Flower Demo", sans-serif;
+  color: #362706;
+}
+
+.member-btn:hover,
+.guest-btn:hover {
+  transform: scale(1.01);
+}
+
+.QR-box {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background-color: #d9d3bd;
+  float: right;
+  margin: 0 auto;
+  border: none;
+  border-radius: 10px;
+  right: 100px;
+}
+
+.success {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #5cb85c;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.success-content {
+  text-align: center;
+}
+
+.success-header h2 {
+  margin: 0;
+}
+
+.success-body {
+  margin: 10px 0;
+}

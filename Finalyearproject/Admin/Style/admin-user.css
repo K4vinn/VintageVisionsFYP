@@ -1,0 +1,37 @@
+.user-header {
+  text-align: center;
+  margin-left: 300px;
+  margin-top: 20px;
+  text-decoration: underline;
+}
+
+.user-desc {
+  text-align: center;
+  margin-left: 300px;
+  margin-top: -20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  margin-left: 300px;
+  border: 1px solid #362706;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  background-color: #7b685b;
+  color: #d9d3bd;
+}
+
+th {
+  background-color: #362706;
+  color: #d9d3bd;
+}

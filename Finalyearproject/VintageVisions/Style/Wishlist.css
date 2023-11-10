@@ -1,0 +1,48 @@
+.wishlist-img {
+  border-radius: 45px;
+  width: 342px;
+  height: 354px;
+  position: relative;
+  align-items: center;
+}
+
+/* Button */
+.wishlist-now {
+  background: #d9d3bd;
+  border-radius: 15px;
+  width: 395px;
+  height: 82px;
+  position: absolute;
+  border: none; /* Remove the border */
+  cursor: pointer;
+  margin: 0 auto;
+  bottom: 0;
+  right: 100px;
+  margin-bottom: 15px;
+}
+
+.wishlist-now:hover {
+  transform: scale(1.01);
+}
+
+.wishlist-button {
+  color: #362706;
+  font: 400 40px "Silk Flower Demo", sans-serif;
+  pointer-events: none;
+}
+
+.wishlist-container {
+  background: #7b685b;
+  border-radius: 45px;
+  width: 500px;
+  height: 620px;
+  position: relative;
+  padding: 10px;
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.wishlist-link {
+  text-decoration: none;
+}

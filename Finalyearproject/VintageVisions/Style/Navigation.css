@@ -1,0 +1,63 @@
+.navbar {
+  background-color: #000000; /* Background color for the navigation bar */
+  overflow: hidden;
+}
+
+.navbar-link {
+  color: #d9d3bd;
+  text-align: left;
+  font: 400 32px "Silk Flower Demo", sans-serif;
+  text-decoration: none;
+  padding: 20px; /* Adjust the padding as needed */
+  position: absolute;
+  top: 31px;
+}
+
+.navbar-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #d9d3bd;
+  transition: width 0.3s ease-in-out;
+}
+
+.navbar-link:hover::after {
+  width: 100%; /* Expand the underline on hover */
+}
+
+.navbar-title {
+  color: #d9d3bd;
+  text-align: left;
+  font: 400 64px "Silk Flower Demo", sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: 721px;
+  top: 31px;
+}
+
+.navbar-link.homepage {
+  left: 22px;
+}
+
+.navbar-link.aboutpage {
+  left: 307px;
+}
+
+.navbar-link.supportpage {
+  left: 420px;
+}
+
+.navbar-link.cataloguepage {
+  left: 134px;
+}
+
+.navbar-title {
+  color: #d9d3bd;
+  text-align: left;
+  font: 400 64px "Silk Flower Demo", sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: 721px;
+  top: 31px;
+}

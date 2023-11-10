@@ -1,0 +1,102 @@
+body {
+    background: url('../Vectors/login.png') center center no-repeat;
+    background-size: cover;
+    background-color: #E9E5D6;
+    font-family: silkflower;
+}
+
+@font-face {
+  font-family: silkflower;
+  src: url(../Fonts/silkflower.otf);
+}
+
+.text2 {
+    text-align: center;
+    margin-top: -10px;
+}
+
+.text3 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.resetpassnow {
+    text-align: center;
+        text-decoration: underline ;
+}
+
+.resetp {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+.inputreset {
+        font-family: silkflower;
+        border-radius: 15px;
+        width: 400px;
+        height: 50px;
+        border: 2px solid #362706;
+        background-color: #DFDFDE;
+        color: black;
+        padding: 10px 10px 10px 10px;
+        margin: 10px 10px 10px 10px;
+        text-align: center;
+        font-size: 20px;
+}
+
+.buttonreset {
+    font-family: silkflower;
+    border: 0px solid;
+    border-radius: 12px;
+    color: #E9E5D6;
+    background-color: #362706;
+    padding: 10px 10px 10px 10px;
+    width: 300px;
+    height: 60px;
+    transition: transform .1s;
+    transition: color .1s;
+    margin: 10px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonreset:hover {
+    transform: scale(1.01);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.resetline {
+    width: 50%;
+    color: #362706;
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+.resetback {
+    display: block;
+    font-family: silkflower;
+    border: 0px solid;
+    border-radius: 12px;
+    color: #E9E5D6;
+    background-color: #362706;
+    padding: 10px 10px 10px 10px;
+    width: 300px;
+    height: 60px;
+    transition: transform .1s;
+    transition: color .1s;
+    margin: 0 auto;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.resetback:hover {
+    transform: scale(1.01);
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

@@ -1,0 +1,146 @@
+.second,
+.second * {
+  box-sizing: border-box;
+}
+.second {
+  background: #e9e5d6;
+  width: 1898px;
+  height: 4111px;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-us {
+  color: #d9d3bd;
+  text-align: right;
+  font: 400 158px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 555px;
+  top: 859px;
+  width: 787px;
+}
+
+.our-story {
+  color: #362706;
+  text-align: left;
+  font: 400 128px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 142px;
+  top: 1811px;
+  width: 625px;
+}
+
+.timeless-beauty-modern-functionality {
+  color: #362706;
+  text-align: right;
+  font: 400 128px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 989px;
+  top: 2322px;
+  width: 845px;
+  height: 552px;
+}
+
+.rectangle-20 {
+  background: #a19287;
+  border-radius: 45px;
+  width: 1693px;
+  height: 484px;
+  position: absolute;
+  left: 105px;
+  top: 1033px;
+}
+
+.welcome-to-vintage-visions-where-timeless-elegance-meets-contemporary-living-we-are-passionate-purveyors-of-vintage-modernism-curating-a-unique-collection-of-furniture-that-seamlessly-blends-the-past-and-present-our-mission-is-to-bring-the-essence-of-bygone-eras-into-your-modern-homes-providing-you-with-exquisite-pieces-that-evoke-nostalgia-while-embodying-the-principles-of-functionality-innovation-and-aesthetics {
+  color: #362706;
+  text-align: center;
+  font: 400 36px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 455px;
+  top: 1091px;
+  width: 987px;
+  height: 366px;
+}
+
+.founded-by-a-group-of-dedicated-design-enthusiasts-vintage-visions-was-born-out-of-a-shared-appreciation-for-the-enduring-allure-of-vintage-modernist-furniture-our-journey-began-with-a-deep-seated-love-for-mid-century-design-which-led-us-to-explore-the-rich-tapestry-of-styles-and-influences-that-shaped-the-20th-century-we-embarked-on-a-quest-to-uncover-hidden-gems-revive-forgotten-classics-and-offer-a-carefully-curated-selection-that-tells-a-story-of-innovation-and-creativity {
+  color: #362706;
+  text-align: center;
+  font: 400 36px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 989px;
+  top: 1653px;
+  width: 731px;
+  height: 366px;
+}
+
+.at-vintage-visions-we-believe-that-great-design-transcends-time-each-piece-in-our-collection-is-a-testament-to-the-enduring-beauty-of-vintage-modernism-from-the-clean-lines-of-scandinavian-minimalism-to-the-bold-experimentation-of-the-mid-century-american-designers-our-furniture-encapsulates-the-spirit-of-an-era-while-seamlessly-integrating-into-contemporary-living-spaces {
+  color: #362706;
+  text-align: center;
+  font: 400 36px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 129px;
+  top: 2369px;
+  width: 731px;
+  height: 366px;
+}
+
+.line-8 {
+  border-style: solid;
+  border-color: #362706;
+  border-width: 6px 0 0 0;
+  width: 552px;
+  height: 0px;
+  position: absolute;
+  left: 949px;
+  top: 1617px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+
+.line-9 {
+  border-style: solid;
+  border-color: #362706;
+  border-width: 6px 0 0 0;
+  width: 552px;
+  height: 0px;
+  position: absolute;
+  left: 949px;
+  top: 2313px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}
+
+.a-commitment-to-sustainability {
+  color: #362706;
+  text-align: left;
+  font: 400 128px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 60px;
+  top: 2995px;
+  width: 863px;
+  height: 537px;
+}
+
+.we-are-committed-to-sustainability-and-environmentally-responsible-practices-by-breathing-new-life-into-vintage-furniture-we-extend-its-lifespan-and-reduce-the-demand-for-new-manufacturing-we-use-eco-friendly-materials-for-restoration-whenever-possible-ensuring-that-our-passion-for-design-doesn-t-compromise-our-responsibility-to-the-planet {
+  color: #362706;
+  text-align: center;
+  font: 400 36px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 1009px;
+  top: 3081px;
+  width: 731px;
+  height: 366px;
+}
+
+.line-11 {
+  border-style: solid;
+  border-color: #362706;
+  border-width: 6px 0 0 0;
+  width: 552px;
+  height: 0px;
+  position: absolute;
+  left: 949px;
+  top: 2998px;
+  transform-origin: 0 0;
+  transform: rotate(90deg) scale(1, 1);
+}

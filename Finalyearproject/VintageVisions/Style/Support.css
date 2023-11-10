@@ -1,0 +1,194 @@
+.supportheader {
+  color: #d9d3bd;
+  text-align: center;
+  font: 400 158px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 555px;
+  top: 859px;
+  width: 787px;
+}
+
+.supporttext-box {
+  background: #a19287;
+  border-radius: 45px;
+  width: 1693px;
+  height: 1087px;
+  position: absolute;
+  left: 102px;
+  top: 1063px;
+}
+
+.supporttext {
+  color: #ffffff;
+  text-align: left;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+  position: relative;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.support-form {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.spt-confirmation {
+  font: 400 30px "Silk Flower Demo", sans-serif;
+  text-align: center;
+  margin: 30px;
+  color: white;
+  padding: 10px;
+}
+
+.alert-box-spt {
+  height: 50px;
+  width: 50%;
+  border: none;
+  border-radius: 15px;
+  background-color: #a2c579;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.support-input {
+  width: 60%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 60px;
+  border: none;
+  font: 400 18px "Silk Flower Demo", sans-serif;
+}
+
+.support-input:focus,
+.support-input-message:focus {
+  outline: none;
+}
+
+.support-input::placeholder,
+.support-input-message::placeholder {
+  color: #ccc;
+}
+
+.support-input:disabled {
+  background-color: white;
+}
+
+.support-input-message {
+  font: 400 18px "Silk Flower Demo", sans-serif;
+  width: 60%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 150px; /* Adjust the height according to your design */
+}
+
+.support-send {
+  width: 30%;
+  background-color: #362706;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font: 400 24px "Silk Flower Demo", sans-serif;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+.support-send:hover {
+  transform: scale(1.01);
+}
+
+.faq-1-box {
+  background: #a19287;
+  border-radius: 45px;
+  width: 1693px;
+  height: 661px;
+  position: absolute;
+  left: 102px;
+  top: 2291px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.faq-2-box {
+  background: #a19287;
+  border-radius: 45px;
+  width: 1693px;
+  height: 360px;
+  position: absolute;
+  left: 102px;
+  top: 3014px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.faq-2 {
+  color: #362706;
+  text-align: left;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 130px;
+  top: 3034px;
+  width: 1222px;
+  height: 340px;
+}
+
+.faq-2-span {
+  color: #362706;
+
+  font: 400 48px "Silk Flower Demo", sans-serif;
+}
+
+.faq-2-span2 {
+  color: #362706;
+
+  font: 400 48px "Silk Flower Demo", sans-serif;
+}
+
+.frequently-asked-questions {
+  color: #362706;
+  text-align: left;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 622px;
+  top: 2197px;
+}
+
+.faq-1 {
+  color: #362706;
+  text-align: left;
+  font: 400 48px "Silk Flower Demo", sans-serif;
+  position: absolute;
+  left: 129px;
+  top: 2312px;
+  width: 1222px;
+  height: 640px;
+}
+
+.faq-1-span {
+  color: #362706;
+
+  font: 400 48px "Silk Flower Demo", sans-serif;
+}
+
+.faq-1-span2 {
+  color: #362706;
+
+  font: 400 48px "Silk Flower Demo", sans-serif;
+}
+
+.faqunderline-1 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 3px 0 0 0;
+  width: 234.01px;
+  height: 0px;
+  position: absolute;
+  left: 832px;
+  top: 2253px;
+}
