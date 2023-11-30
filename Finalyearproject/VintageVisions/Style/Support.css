@@ -140,14 +140,14 @@
 
 .faq-2-span {
   color: #362706;
-
-  font: 400 48px "Silk Flower Demo", sans-serif;
+  width: 1000px;
+  text-decoration: underline;
+  font: 400 40px "Silk Flower Demo", sans-serif;
 }
 
 .faq-2-span2 {
   color: #362706;
-
-  font: 400 48px "Silk Flower Demo", sans-serif;
+  font: 400 38px "Silk Flower Demo", sans-serif;
 }
 
 .frequently-asked-questions {
@@ -162,7 +162,7 @@
 .faq-1 {
   color: #362706;
   text-align: left;
-  font: 400 48px "Silk Flower Demo", sans-serif;
+  font: 400 42px "Silk Flower Demo", sans-serif;
   position: absolute;
   left: 129px;
   top: 2312px;
@@ -172,14 +172,14 @@
 
 .faq-1-span {
   color: #362706;
-
-  font: 400 48px "Silk Flower Demo", sans-serif;
+  text-decoration: underline;
+  font: 400 38px "Silk Flower Demo", sans-serif;
 }
 
 .faq-1-span2 {
   color: #362706;
 
-  font: 400 48px "Silk Flower Demo", sans-serif;
+  font: 400 38px "Silk Flower Demo", sans-serif;
 }
 
 .faqunderline-1 {

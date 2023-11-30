@@ -4,8 +4,6 @@ include("../includes/header.php");
 require_once('../stripe/init.php');
 \Stripe\Stripe::setApiKey('sk_test_51O3YulBeyFElC0Gu6xce0cmALCObUNdObE1Fbdd11ca3XCdahNW55cWiqTGOL2CmxRaQzgwIhTLG7dSTxFjt08yR00DrVIjHok');
 
-
-session_start();
 $user_id = $_SESSION['auth_user']['user_id'];
 
 if (isset($_SESSION['stripe_checkout_session_id'])) {
@@ -44,7 +42,11 @@ if (isset($_SESSION['stripe_checkout_session_id'])) {
                     echo "Error inserting payment details: " . mysqli_error($con);
                     // Handle the error as needed
                 } else {
-                    echo "<h1 class='success-message'> Database issue check </h1>" . $paymentIntentId . $paymentEmail . $user_id;
+                    echo "<h1 class='success-message'> Payment was successful. <br/> Your product will be shipped within 3-5 working days. <br/> Please stand by for an email. </h1>";
+                    echo "<button class='return-home' onclick='returnHome()'>
+        Return to Home!
+
+    </button>";
                 }
             } else {
                 $insertQuery = "INSERT INTO payments (payment_id, email, status, user_id) VALUES ('$paymentIntentId', '$paymentEmail', '$status', '$user_id')";
@@ -53,14 +55,6 @@ if (isset($_SESSION['stripe_checkout_session_id'])) {
         }
 
 
-        // Display a success message or perform other actions after saving to the database
-        echo "<div class='success-box'>";
-        echo "<h1 class='success-message'> Payment was successful. <br/> Your product will be shipped within 3-5 working days. <br/> Please stand by for an email. </h1>";
-        echo "<button class='return-home' onclick='returnHome()'>";
-        echo "Return to Home!";
-
-        echo "</button>";
-        echo "</div>";
 
         // Close the connection
         mysqli_close($con);

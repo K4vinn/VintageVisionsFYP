@@ -1,19 +1,22 @@
-/* .success-box {
+.success-box {
   color: green;
   justify-content: center;
   margin: 0 auto;
+  margin-bottom: 100px;
   height: 300px;
   width: 1000px;
   border: none;
   border-radius: 16px;
-} */
+  position: absolute;
+}
 
 .success-message {
   background-color: #a2c579;
   font: 100 30px "Silk Flower Demo", sans-serif;
   margin: 0 auto;
   position: relative;
-  bottom: 3300px;
+  top: -1000px;
+  justify-content: center;
   text-align: center;
   color: beige;
   height: 200px;
@@ -21,15 +24,16 @@
   border: 1px solid white;
   border-radius: 15px;
   padding: 20px;
+  margin: 0 auto;
 }
 
 .return-home {
   display: flex;
   align-items: center;
   position: relative;
-  bottom: 3400px;
+  top: -980px;
   justify-content: center;
-  margin: 0 auto;
+  margin: 10px auto;
   border: none;
   border-radius: 15px;
   height: 50px;
@@ -42,13 +46,13 @@
   transform: scale(1.01);
 }
 
-
 .failed-message {
   background-color: #ff0000;
   font: 100 30px "Silk Flower Demo", sans-serif;
   margin: 0 auto;
   position: relative;
-  bottom: 3300px;
+  top: -1000px;
+  justify-content: center;
   text-align: center;
   color: beige;
   height: 200px;
@@ -56,6 +60,7 @@
   border: 1px solid white;
   border-radius: 15px;
   padding: 20px;
+  margin: 0 auto;
 }
 
 .return-home {

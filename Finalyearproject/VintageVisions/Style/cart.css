@@ -6,13 +6,16 @@
   position: absolute;
   left: 102px;
   top: 1058px;
-
   display: grid;
   grid-template-columns: repeat(3, 500px);
   gap: 20px;
   margin: 10px auto;
   justify-content: center;
   align-items: center;
+}
+
+.empty-cart {
+  font-family: "Silk Flower Demo", sans-serif;
 }
 
 .cart-container {
@@ -127,10 +130,10 @@
   position: absolute;
   border: none; /* Remove the border */
   cursor: pointer;
-  margin: 0 auto;
+  margin: 10px auto;
   bottom: 0;
   right: 100px;
-  margin-bottom: 15px;
+  margin-bottom: -110px;
 }
 
 .checkout-now:hover {

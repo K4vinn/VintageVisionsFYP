@@ -5,7 +5,6 @@ include("../Config/Database.php");
 
 if (isset($_GET['id'])) {
     $id = $_GET['id'];
-
     // Update the status to 1 for the specified ID
     $update_query = "UPDATE support SET status = 1 WHERE id = $id";
     $result = mysqli_query($con, $update_query);

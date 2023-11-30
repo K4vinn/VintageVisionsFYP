@@ -106,13 +106,22 @@
   border-radius: 45px;
   width: 477px;
   height: 115px;
-  position: absolute;
+  position: relative;
   right: 100px; /* Adjust right position */
-  margin-top: -20px;
   color: #ffffff;
   text-align: center;
   font: 400 48px "Silk Flower Demo", sans-serif;
   margin: 30px auto;
+  float: right;
+  margin-top: 2400px;
+}
+
+.wishlist-text {
+  display: flex;
+  text-align: center;
+  margin: 100px auto;
+  font: 100 30px "Silk Flower Demo", sans-serif;
+  margin-left: 37%;
 }
 
 .change-pw2 {
@@ -127,13 +136,13 @@
 
 .edit-button {
   background: #d9d3bd;
-  border: none;
   border-radius: 45px;
   width: 477px;
   height: 115px;
   position: absolute;
-  right: 600px; /* Adjust right position */
+  right: 90px; /* Adjust right position */
   top: 500px;
+  border: none;
 }
 
 .edit-button:hover {
@@ -216,12 +225,21 @@
 
 .wishlist-viewmore {
   color: #362706;
+  background-color: #d9d3bd;
   height: 50px;
   width: 200px;
   border: none;
   border-radius: 15px;
   justify-content: center;
   margin: 20px auto;
+  font: 30px "Silk Flower Demo", sans-serif;
+  top: 450px;
+  position: relative;
+  left: 45%;
+}
+
+.wishlist-viewmore:hover {
+  transform: scale(1.01);
 }
 
 .wishlist-box {

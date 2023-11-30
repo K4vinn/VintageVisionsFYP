@@ -1,6 +1,6 @@
 <?php
 session_start();
-include "./Config/Database.php";
+include "../VintageVisions/Database.php";
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -33,7 +33,7 @@ function sendemail_verify($name, $email, $verify_token)
     $email_template = "<h2> Hello $name, You have registered for Vintage Visions </h2>
                             <h5> Verify Email With the Link Provided Below! </h5>
                             <br/><br/>
-                            <a href='localhost/Finalyearproject/verify-email.php?token=$verify_token'> Click this link to enter the verification page and confirm your account! </a>";
+                            <a href='http://localhost:8000/VintageVisions/verify-email.php?token=$verify_token'> Click this link to enter the verification page and confirm your account! </a>";
     $mail->Body    = $email_template;
 
     $mail->send();
@@ -63,7 +63,7 @@ if (isset($_POST['register-btn'])) {
 
         if ($query_run) {
             sendemail_verify("$name", "$email", "$verify_token");
-            $_SESSION['status'] = "Registration Successful! Please verify your email address.";
+            $_SESSION['success'] = "Registration Successful! Please verify your email address.";
             header("Location: registration.php");
         } else {
             $_SESSION['status'] = "Registration Failed";

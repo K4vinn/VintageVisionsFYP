@@ -1,8 +1,8 @@
 body {
-    background: url('../Vectors/login.png') center center no-repeat;
-      background-size: cover;
-      background-color: #E9E5D6;
-    font-family: silkflower;
+  background: url("../Vectors/login.png") center center no-repeat;
+  background-size: cover;
+  background-color: #e9e5d6;
+  font-family: silkflower;
 }
 
 @font-face {
@@ -10,116 +10,137 @@ body {
   src: url(../Fonts/silkflower.otf);
 }
 
-.signuptoday{
-    /* margin-left: 280px; */
-    margin-top: -20px;
-    font-size: 62px;
-    text-align: center;
+.signuptoday {
+  /* margin-left: 280px; */
+  margin-top: -20px;
+  font-size: 62px;
+  text-align: center;
 }
 
 .login {
-    float: right;
-    margin-right: 450px;
-    margin-top: -200px;
+  float: right;
+  margin-right: 450px;
+  margin-top: -200px;
+}
+
+.login-form-container {
+  margin-top: -15px;
+}
+
+.status-text2 {
+  margin-left: 400px;
+  font-size: 20px;
+  height: 50px;
+  width: 340px;
+  color: white;
+  border: 1px solid red;
+  background-color: #860a35;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  text-align: center;
 }
 
 .text2 {
-    margin-left: 380px;
-    font-size: 20px;
+  margin-left: 380px;
+  font-size: 20px;
 }
 
 .text3 {
-    margin-top: -10px;
-    margin-left: 340px;
-    font-size: 20px;
+  margin-top: -10px;
+  margin-left: 340px;
+  font-size: 20px;
 }
 
 .inputl {
-    font-family: silkflower;
-    border-radius: 15px;
-    width: 400px;
-    height: 50px;
-    outline:none;
-    border: 2px solid #362706;
-    background-color: #DFDFDE;
-    color: black;
-    padding: 10px 10px 10px 10px;
-    margin: 10px 10px 10px 10px;
-    text-align: center;
-    font-size: 20px;
+  font-family: silkflower;
+  border-radius: 15px;
+  width: 400px;
+  height: 50px;
+  outline: none;
+  border: 2px solid #362706;
+  background-color: #dfdfde;
+  color: black;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+  font-size: 20px;
 }
 
 #vertical-line {
-    position: absolute;
-    top: 25%;
-    bottom: 0;
-    left: 50%;
-    height: 60%;
-    border-left: 2px solid #362706;
-    border-radius: 15px;
-  }
+  position: absolute;
+  top: 25%;
+  bottom: 0;
+  left: 50%;
+  height: 30%;
+  border-left: 2px solid #362706;
+  border-radius: 15px;
+}
 
 .buttonl {
-    font-family: silkflower;
-    border: 0px solid;
-    border-radius: 12px;
-    color: #E9E5D6;
-    background-color: #362706;
-    padding: 10px 10px 10px 10px;
-    width: 300px;
-    height: 60px;
-    transition: transform .1s;
-    transition: color .1s;
-    margin: 10px;
-    font-size: 20px;
-    margin-left: 50px;
+  font-family: silkflower;
+  border: 0px solid;
+  border-radius: 12px;
+  color: #e9e5d6;
+  background-color: #362706;
+  padding: 10px 10px 10px 10px;
+  width: 300px;
+  height: 60px;
+  transition: transform 0.1s;
+  transition: color 0.1s;
+  margin: 10px;
+  font-size: 20px;
+  margin-left: 50px;
 }
 
 .buttonl:hover {
-    transform: scale(1.01);
-    color: white;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(1.01);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .welcome {
-    position: static;
+  position: static;
+  margin-top: 150px;
 }
 
 .forgot {
-    margin-top: auto;
-    margin-left: 1000px;
-    font-size: 20px;
+  margin-top: auto;
+  margin-left: 1000px;
+  font-size: 20px;
 }
 
 .reset {
-    color: #B0DAFF;
+  color: #b0daff;
 }
 
 .button2 {
-    font-family: silkflower;
-    border: 0px solid;
-    border-radius: 12px;
-    color: #E9E5D6;
-    background-color: #362706;
-    padding: 10px 10px 10px 10px;
-    width: 300px;
-    height: 60px;
-    transition: transform .1s;
-    transition: color .1s;
-    margin: 10px;
-    font-size: 20px;
-    margin-left: 430px;
-
-} 
+  font-family: silkflower;
+  border: 0px solid;
+  border-radius: 12px;
+  color: #e9e5d6;
+  background-color: #362706;
+  padding: 10px 10px 10px 10px;
+  width: 300px;
+  height: 60px;
+  transition: transform 0.1s;
+  transition: color 0.1s;
+  margin: 10px;
+  font-size: 20px;
+  margin-left: 430px;
+}
 
 .button2:hover {
-    transform: scale(1.01);
-    color: white;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(1.01);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .text4 {
-    margin-top: 10px;
-    margin-left: 460px;
-    font-size: 20px;
+  margin-top: 10px;
+  margin-left: 460px;
+  font-size: 20px;
 }

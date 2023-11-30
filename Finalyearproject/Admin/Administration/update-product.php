@@ -12,10 +12,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $product_variation = $_POST['product_variation'];
     $product_description = $_POST['product_description'];
     $product_stock = $_POST['product_stock'];
-    $product_image = $_POST['product_image'];
-    $product_image_prev1 = $_POST['product_image_prev1'];
-    $product_image_prev2 = $_POST['product_image_prev2'];
-    $QRCode = $_POST['QRCode'];
 
     // Update query
     $sql = "UPDATE products SET 
@@ -24,11 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             product_category = '$product_category',
             product_variation = '$product_variation',
             product_description = '$product_description',
-            product_stock = '$product_stock',
-            product_image = '$product_image',
-            product_image_prev1 = '$product_image_prev1',
-            product_image_prev2 = '$product_image_prev2',
-            QRCode = '$QRCode'
+            product_stock = '$product_stock'
             WHERE id = $id";
 
     if (mysqli_query($con, $sql)) {

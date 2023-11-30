@@ -21,8 +21,9 @@ $wishlist_res = mysqli_query($con, $get_wishlist);
     if ($wishlist_res->num_rows > 0) {
         while ($row = $wishlist_res->fetch_assoc()) {
             echo '
-            <a class="wishlist-link" href="products.php?product/link&id=' . $row['id'] . '">
+            <a class="wishlist-link" href="http://localhost:8000/VintageVisions/Vintage%20Visions/products.php?product/link&id=' . $row['id'] . '">
             <div class="wishlist-container">
+            <div class="trash-can" data-product-id="' . $row['id'] . '" onclick="deleteItem(this)"> X </div>
             <div class="cart-image">
                 <img class="wishlist-img" src="' . $row['product_image'] . '">
             </div>
@@ -46,13 +47,31 @@ $wishlist_res = mysqli_query($con, $get_wishlist);
 </div>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        document.addEventListener("click", function(event) {
-            var backButton = event.target.closest(".to-account");
-            if (backButton) {
-                var accUrl = "account.php";
-                window.location.href = accUrl;
-            }
-        });
+    document.getElementById("to-account").addEventListener("click", function() {
+        window.location.href = "account.php";
     });
+    // Trash
+    function deleteItem(cartContainer) {
+        console.log('Item deleted');
+        // Add your delete logic here
+
+        var productId = cartContainer.getAttribute("data-product-id");
+
+        var xhr = new XMLHttpRequest();
+        xhr.open('POST', 'delete_wishlist_item.php', true);
+        xhr.setRequestHeader('Content-type', 'application/x-www-form-urlencoded');
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                // Response from the PHP file after item deletion
+                console.log(xhr.responseText);
+                setTimeout(function() {
+                    location.reload();
+                }, 1000);
+            }
+        };
+
+        // Construct the data payload for the request
+        var data = "product_id=" + productId;
+        xhr.send(data);
+    }
 </script>

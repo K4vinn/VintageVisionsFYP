@@ -1,8 +1,8 @@
 body {
-    background: url('../Vectors/login.png') center center no-repeat;
-    background-size: cover;
-    background-color: #E9E5D6;
-    font-family: silkflower;
+  background: url("../Vectors/login.png") center center no-repeat;
+  background-size: cover;
+  background-color: #e9e5d6;
+  font-family: silkflower;
 }
 
 @font-face {
@@ -10,93 +10,140 @@ body {
   src: url(../Fonts/silkflower.otf);
 }
 
+.reset-form-css {
+  justify-content: center;
+  margin: 150px auto;
+  text-align: center;
+}
 .text2 {
-    text-align: center;
-    margin-top: -10px;
+  text-align: center;
+  margin-top: -10px;
 }
 
 .text3 {
-    text-align: center;
-    margin-top: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.reset-pass-container {
+  margin-top: 150px;
 }
 
 .resetpassnow {
-    text-align: center;
-        text-decoration: underline ;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .resetp {
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
 }
 
-.inputreset {
-        font-family: silkflower;
-        border-radius: 15px;
-        width: 400px;
-        height: 50px;
-        border: 2px solid #362706;
-        background-color: #DFDFDE;
-        color: black;
-        padding: 10px 10px 10px 10px;
-        margin: 10px 10px 10px 10px;
-        text-align: center;
-        font-size: 20px;
+.inputr {
+  font-family: silkflower;
+  border-radius: 15px;
+  width: 400px;
+  height: 50px;
+  border: 2px solid #362706;
+  background-color: #dfdfde;
+  color: black;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+  font-size: 20px;
 }
 
-.buttonreset {
-    font-family: silkflower;
-    border: 0px solid;
-    border-radius: 12px;
-    color: #E9E5D6;
-    background-color: #362706;
-    padding: 10px 10px 10px 10px;
-    width: 300px;
-    height: 60px;
-    transition: transform .1s;
-    transition: color .1s;
-    margin: 10px;
-    font-size: 20px;
-    justify-content: center;
-    align-items: center;
+.buttonr {
+  font-family: silkflower;
+  border: 0px solid;
+  border-radius: 12px;
+  color: #e9e5d6;
+  background-color: #362706;
+  padding: 10px 10px 10px 10px;
+  width: 300px;
+  height: 60px;
+  transition: transform 0.1s;
+  transition: color 0.1s;
+  margin: 10px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
-.buttonreset:hover {
-    transform: scale(1.01);
-    color: white;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+.buttonr:hover {
+  transform: scale(1.01);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .resetline {
-    width: 50%;
-    color: #362706;
-    border: 1px solid;
-    border-radius: 2px;
+  width: 50%;
+  color: #362706;
+  border: 1px solid;
+  border-radius: 2px;
+}
+
+.status-reset {
+  margin-left: 400px;
+  font-size: 20px;
+  height: 50px;
+  width: 340px;
+  color: white;
+  border: 1px solid red;
+  background-color: #860a35;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.status-success {
+  margin-left: 400px;
+  font-size: 20px;
+  height: 50px;
+  width: 340px;
+  color: black;
+  border: 1px solid forestgreen;
+  background-color: #c5e898;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.resetb {
+  margin-top: 10px;
 }
 
 .resetback {
-    display: block;
-    font-family: silkflower;
-    border: 0px solid;
-    border-radius: 12px;
-    color: #E9E5D6;
-    background-color: #362706;
-    padding: 10px 10px 10px 10px;
-    width: 300px;
-    height: 60px;
-    transition: transform .1s;
-    transition: color .1s;
-    margin: 0 auto;
-    font-size: 20px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  display: block;
+  font-family: silkflower;
+  border: 0px solid;
+  border-radius: 12px;
+  color: #e9e5d6;
+  background-color: #362706;
+  padding: 10px 10px 10px 10px;
+  width: 300px;
+  height: 60px;
+  transition: transform 0.1s;
+  transition: color 0.1s;
+  margin: 0 auto;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .resetback:hover {
-    transform: scale(1.01);
-    color: white;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transform: scale(1.01);
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

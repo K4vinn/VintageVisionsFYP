@@ -1,7 +1,6 @@
 <?php
 include("../includes/header.php");
 include("../Config/Database.php");
-session_start();
 
 if (isset($_SESSION["email"])) {
     $email = $_SESSION['email'];
@@ -22,7 +21,6 @@ $products_results = mysqli_query($con, $get_products);
             <option value="Bedroom">Bedroom</option>
             <option value="Kitchen">Kitchen</option>
             <option value="Dining">Dining</option>
-            <!-- Add more category options as needed -->
         </select>
     </div>
     <div class="product-grid">
@@ -63,5 +61,3 @@ $products_results = mysqli_query($con, $get_products);
         });
     });
 </script>
-
-<?php include("../includes/footer.php") ?>

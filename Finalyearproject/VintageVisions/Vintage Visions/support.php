@@ -1,7 +1,6 @@
 <?php
 include("../includes/header.php");
 include("../Config/Database.php");
-session_start();
 
 if (isset($_SESSION["authorized"])) {
     $email = $_SESSION['email'];
@@ -29,16 +28,7 @@ if (isset($_SESSION["authorized"])) {
     </form>
 
 
-    <?php
-    if (isset($_SESSION['status'])) {
-    ?>
-        <div class="alert-box-spt">
-            <h5 class='spt-confirmation'> <?= $_SESSION['status']; ?> </h5>
-        </div>
-    <?php
-        unset($_SESSION['status']);
-    }
-    ?>
+
 
 </div>
 
@@ -47,17 +37,10 @@ if (isset($_SESSION["authorized"])) {
 
 </script>
 
-<!-- <div class="faq-1-box">
+<div class="faq-1-box">
 </div>
-<div class="faq-2-box">
-</div> -->
-<!-- <div class="faq-2">
-    <span>
-        <span class="faq-2-span">Why are there products on the website that I cannot buy online?<br />
-        </span>
-        <span class="faq-2-span2">The majority of our IKEA product range is available at our online shop. However, only products with available stock will appear with the &quot;BUY&quot; button.</span>
-    </span>
-</div>
+
+
 
 <div class="frequently-asked-questions">
     Frequently Asked Questions </div>
@@ -69,6 +52,4 @@ if (isset($_SESSION["authorized"])) {
     </span>
 </div>
 <div class="faqunderline-1">
-</div> -->
-<!-- 
-<?php include("../includes/footer.php") ?> -->
+</div>

@@ -34,11 +34,6 @@ $getUserInfoResults = mysqli_query($con, $getUserInfo);
             });
         </script>
 
-        <!-- Change PW -->
-        <button id="change-pw" class="change-button">
-            <div class="change-pw">Change Password </div>
-        </button>
-
         <script>
             document.getElementById("change-pw").addEventListener("click", function() {
                 window.location.href = "../Vintage Visions/accountchangepw.php";
@@ -48,8 +43,48 @@ $getUserInfoResults = mysqli_query($con, $getUserInfo);
 
     <div class="purchase-box">
         <div class="history-text">Purchase History</div>
-        <div class="history-card"></div>
+        <?php
+        $products_id = "SELECT * FROM payments WHERE email = '$email'";
+        $products_id_run = mysqli_query($con, $products_id);
+
+        if ($products_id_run) {
+            $cardsDisplayed = 0; // Counter for displayed cards
+            while (($row = mysqli_fetch_assoc($products_id_run)) && ($cardsDisplayed < 3)) {
+
+                $idArray = $row['product_id'];
+                $prodId = json_decode($idArray);
+
+                if ($prodId !== null) {
+                    foreach ($prodId as $productdisplay) {
+                        $productget = "SELECT * FROM products WHERE id = '$productdisplay'";
+                        $productrun = mysqli_query($con, $productget);
+
+                        if ($productrun) {
+                            $productData = mysqli_fetch_assoc($productrun);
+                            echo '<div class="wishlist-card">
+                            <div class="wishlist-image">
+                                <img class="wishlist-img-inner" src="' . $productData['product_image'] . '">
+                            </div>
+                            <div class="wishlist-item-name">
+                                <h1>' . $productData['product_name'] . '</h1>
+                                <h1> RM ' . $productData['product_price'] . '</h1>
+                            </div>
+                        </div>';
+                            $cardsDisplayed++;
+
+                            if ($cardsDisplayed >= 3) {
+                                break; // Exit the loop after displaying 3 cards
+                            }
+                        }
+                    }
+                }
+            }
+        } else {
+            echo "Error fetching data from the database: " . mysqli_error($con);
+        }
+        ?>
     </div>
+
 
 
     <div class="wishlist-box">
@@ -79,19 +114,23 @@ $getUserInfoResults = mysqli_query($con, $getUserInfo);
                             <h1> RM ' . $row['product_price'] . '</h1>
                         </div>
                     </div>
-                </a>';
+                </a>
+        ';
                 }
             } else {
-                echo "No items found in the wishlist.";
+                echo "<h2 class='wishlist-text'> No items found in the wishlist. </h2>";
             }
         } else {
             echo "Error executing the query.";
         }
         ?>
+        <button id="wishlist-viewmore" class="wishlist-viewmore"> View More </button>
 
-        <div class="wishlist-viewmore">
-            <button class="wishlist-viewmore"> View More </button>
-        </div>
+        <script>
+            document.getElementById("wishlist-viewmore").addEventListener("click", function() {
+                window.location.href = "../Vintage Visions/wishlist-cart.php";
+            });
+        </script>
     </div>
 
     <form method="post" action="delete_account.php">

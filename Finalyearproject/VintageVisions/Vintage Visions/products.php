@@ -1,7 +1,6 @@
 <?php
 include("../includes/header.php");
 include("../Config/Database.php");
-session_start();
 
 $isAuthorized = isset($_SESSION['authorized']) && $_SESSION['authorized'] === true;
 
@@ -111,14 +110,6 @@ if ($id !== null) {
         </button>
     </div>
 </div>
-
-<!-- 
-<div class='recommendations'>
-    <div class="personal-header4"> More like this! </div>
-    <div class="more-item1"></div>
-    <div class="more-item2"></div>
-    <div class="more-item3"></div>
-</div> -->
 
 <!-- Scripts -->
 <script>

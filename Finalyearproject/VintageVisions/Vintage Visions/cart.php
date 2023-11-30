@@ -1,7 +1,7 @@
 <?php
 include("../includes/header.php");
 include("../Config/Database.php");
-session_start();
+
 $user_id = $_SESSION['auth_user']['user_id'];
 
 $isAuthorized = isset($_SESSION['authorized']) && $_SESSION['authorized'] === true;
@@ -46,7 +46,7 @@ $cart_res = mysqli_stmt_get_result($get_cart_statement);
             </div>
         <?php } ?>
     <?php } else {
-        echo '<h2>Your Cart is empty.</h2>';
+        echo '<h2 class="empty-cart">Your Cart is empty.</h2>';
     } ?>
     <br /><br /><br /><br />
     <button id="checkout-now" class="checkout-now" <?php if ($cart_res->num_rows == 0) echo 'disabled'; ?>>
@@ -119,7 +119,7 @@ $cart_res = mysqli_stmt_get_result($get_cart_statement);
                 console.log(xhr.responseText);
                 setTimeout(function() {
                     location.reload();
-                }, 2000);
+                }, 1000);
             }
         };
 

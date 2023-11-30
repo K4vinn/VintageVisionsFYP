@@ -1,6 +1,6 @@
 <?php
-include("../Config/Database.php");
 session_start();
+include("../Config/Database.php");
 
 $current_url = $_SERVER['REQUEST_URI'];
 

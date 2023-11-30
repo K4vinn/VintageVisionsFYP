@@ -3,7 +3,11 @@ include("../Includes/admin-main.php");
 include("../Includes/admin-navbar.php");
 include("../Config/Database.php");
 
-$get_users = "SELECT * FROM users";
+if (isset($_GET['id'])) {
+    $id = $_GET['id'];
+}
+
+$get_users = "SELECT * FROM users WHERE user_id = '$id'";
 $get_users_results = mysqli_query($con, $get_users);
 
 while ($row = mysqli_fetch_assoc($get_users_results)) {

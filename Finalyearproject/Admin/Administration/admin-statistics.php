@@ -2,6 +2,26 @@
 include("../Includes/admin-main.php");
 include("../Includes/admin-navbar.php");
 include("../Config/Database.php");
+
+$queryProduct = "SELECT * FROM products";
+$queryProductRun = mysqli_query($con, $queryProduct);
+
+$queryPayment = "SELECT * FROM payments WHERE status = 'complete'";
+$queryPaymentRun = mysqli_query($con, $queryPayment);
+
+$totalnum = 0;
+
+if ($queryPaymentRun) {
+    $totalPayments = mysqli_num_rows($queryPaymentRun);
+
+    while ($row = mysqli_fetch_assoc($queryPaymentRun)) {
+        $productId = json_decode($row['product_id'], true);
+        $num = count($productId);
+        $totalnum += $num;
+    }
+}
+
+
 ?>
 
 <link rel="stylesheet" href="../Style/admin-order.css">
@@ -17,8 +37,8 @@ include("../Config/Database.php");
 <script>
     var data = [{
         type: "pie",
-        values: [2, 3, 4, 4],
-        labels: ["Products", "Sales", "Total Bought", ""],
+        values: [<?php echo $totalnum ?>, <?php echo $totalPayments ?>],
+        labels: ["Total Products Sold", "Sales"],
         textinfo: "label+percent",
         textposition: "outside",
         automargin: true
@@ -30,8 +50,6 @@ include("../Config/Database.php");
         margin: {
             "t": 0,
             "b": 0,
-            "l": 0,
-            "r": 0
         },
         showlegend: false
     }

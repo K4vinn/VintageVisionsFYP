@@ -15,10 +15,10 @@
   position: absolute;
   border: none; /* Remove the border */
   cursor: pointer;
-  margin: 0 auto;
+  margin: 10px auto;
   bottom: 0;
   right: 100px;
-  margin-bottom: 15px;
+  margin-bottom: -110px;
 }
 
 .wishlist-now:hover {

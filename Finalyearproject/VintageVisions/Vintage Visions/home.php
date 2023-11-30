@@ -48,7 +48,7 @@ $getProductDetailsResults = mysqli_query($con, $getProductDetails);
 <div class="backdrop"></div>
 <div class="rectangle-21">
     <a href="catalogue.php">
-        <img class='bedroom' src="../Images/bedroom.png" alt="bedroom">
+        <img class='bedroom' src="/Images/bedroom.png" alt="bedroom">
         <div class="overlay-bedroom">
             <p class="location-name">Bedroom</p>
         </div>
@@ -56,7 +56,7 @@ $getProductDetailsResults = mysqli_query($con, $getProductDetails);
 </div>
 <div class="rectangle-22">
     <a href="catalogue.php">
-        <img class='living' src="../Images/livingroom.png" alt="living">
+        <img class='living' src="/Images/livingroom.png" alt="living">
         <div class="overlay-living">
             <p class="location-name">Living Room</p>
         </div>
@@ -64,7 +64,7 @@ $getProductDetailsResults = mysqli_query($con, $getProductDetails);
 </div>
 <div class="rectangle-23">
     <a href="catalogue.php">
-        <img class='dining' src="../Images/dining.png" alt="living">
+        <img class='dining' src="/Images/dining.png" alt="living">
         <div class="overlay-dining">
             <p class="location-name">Dining</p>
         </div>
@@ -77,8 +77,7 @@ $getProductDetailsResults = mysqli_query($con, $getProductDetails);
 
 <?php
 
-// Connect to the database and retrieve item details based on the ID
-$sql = "SELECT * FROM products WHERE id = 5"; // Replace with your table name
+$sql = "SELECT * FROM products WHERE id = 5";
 $getProductDetailsResults = mysqli_query($con, $sql);
 
 if ($getProductDetailsResults && mysqli_num_rows($getProductDetailsResults) > 0) {
@@ -106,8 +105,7 @@ if ($getProductDetailsResults && mysqli_num_rows($getProductDetailsResults) > 0)
 
 <?php
 
-// Connect to the database and retrieve item details based on the ID
-$sql = "SELECT * FROM products WHERE id = 6"; // Replace with your table name
+$sql = "SELECT * FROM products WHERE id = 6";
 $getProductDetailsResults = mysqli_query($con, $sql);
 
 if ($getProductDetailsResults && mysqli_num_rows($getProductDetailsResults) > 0) {
@@ -135,8 +133,7 @@ if ($getProductDetailsResults && mysqli_num_rows($getProductDetailsResults) > 0)
 
 <?php
 
-// Connect to the database and retrieve item details based on the ID
-$sql = "SELECT * FROM products WHERE id = 7"; // Replace with your table name
+$sql = "SELECT * FROM products WHERE id = 7";
 $getProductDetailsResults = mysqli_query($con, $sql);
 
 if ($getProductDetailsResults && mysqli_num_rows($getProductDetailsResults) > 0) {
@@ -166,8 +163,7 @@ if ($getProductDetailsResults && mysqli_num_rows($getProductDetailsResults) > 0)
 
 <?php
 
-// Connect to the database and retrieve item details based on the ID
-$sql = "SELECT * FROM products WHERE id = 8"; // Replace with your table name
+$sql = "SELECT * FROM products WHERE id = 8";
 $getProductDetailsResults = mysqli_query($con, $sql);
 
 if ($getProductDetailsResults && mysqli_num_rows($getProductDetailsResults) > 0) {
@@ -277,5 +273,3 @@ if ($getProductDetailsResults && mysqli_num_rows($getProductDetailsResults) > 0)
         <h2>Emily T.</h2>
     </div>
 </div>
-
-<?php include("../includes/footer.php"); ?>
